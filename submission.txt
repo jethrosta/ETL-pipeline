@@ -1,0 +1,29 @@
+# Menjalankan skrip
+python3 main.py
+
+# Menjalankan unit test pada folder tests
+python3 -m pytest tests/ --cov --cov-report=html -v
+
+# Menjalankan test coverage pada folder tests mengunakan modul coverage
+coverage run -m pytest tests
+# Menjalankan test coverage menggunakan pytest
+pytest --cov=tests --cov-report=html tests/
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1FTkvlwCWrMj_sgFm6b9QUIk5IFJArNfbRtXrTobGeV0/edit?usp=sharing
+
+# File csv
+Fashion_details_data.csv
+
+# PostgreSQL
+https://github.com/jethrosta/ETL_Pipeline/blob/main/assets/Relation_db_results.png
+
+# URL untuk scraping
+BASE_URL = 'https://fashion-studio.dicoding.dev/'
+
+# Database URL
+DB_URL = "postgresql+psycopg2://developer:supersecretpassword@localhost:5432/fashiondb"
+
+# Google Sheets Config
+GSHEET_ID = '1FTkvlwCWrMj_sgFm6b9QUIk5IFJArNfbRtXrTobGeV0'
+SHEET_NAME = 'Sheet1'
